@@ -11,6 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+    width:100%;
+    overflow-x:hidden;
 }
 .navigation-bar{
     display: flex;
@@ -304,5 +306,6 @@ footer{
         gap: 1rem;
     }
 }
+
 
 
