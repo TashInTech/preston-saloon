@@ -17,7 +17,7 @@ body{
     top: 0;
     left: 0;
     justify-content: space-evenly;
-    position: fixed;
+    position: sticky;
     z-index: 10000;
     background-color:rgba(0,0,0,0.7);
     padding: 1.86rem;
@@ -304,3 +304,4 @@ footer{
         gap: 1rem;
     }
 }
+
