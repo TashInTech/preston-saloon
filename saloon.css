@@ -5,7 +5,7 @@
     font-family: sans-serif;
 
 }
-body{
+html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,11 +301,13 @@ footer{
          grid-template-columns: 1fr;
     }
     .navigation-bar{
+        width:100vh;
         display: grid;
         grid-template-columns: 1fr 1fr ;
         gap: 1rem;
     }
 }
+
 
 
 
