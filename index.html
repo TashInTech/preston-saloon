@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Saloon | Professional Beauty & Styling</title>
+    <link rel="stylesheet" href="saloon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- FLOATING CALL & WHATSAPP BUTTONS -->
+  <div class="floating-btns">
+    <a href="tel:+256759258767" class="float-btn float-call" title="Call Us">
+      <span class="float-icon">📞</span>
+      <span class="float-label">Call</span>
+    </a>
+    <a href="https://wa.me/256759258767?text=Hello%20Preston%20Saloon!%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="float-btn float-whatsapp" title="WhatsApp Us">
+      <img src="assets/whatsapp.png" alt="WhatsApp" width="26">
+      <span class="float-label">WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- NAV -->
+  <div class="navigation-bar">
+    <div class="nav-logo">✂️ Preston Saloon</div>
+    <div class="nav-links">
+      <a href="#service"><button>Services</button></a>
+      <a href="#booking"><button>Booking</button></a>
+      <a href="#about"><button>About</button></a>
+      <a href="#comments"><button>Reviews</button></a>
+      <a href="#contact"><button>Contact</button></a>
+    </div>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </div>
+
+  <!-- HERO SLIDER -->
+  <div class="slides">
+    <button class="prev">&#10094;</button>
+    <div class="slide active">
+      <img src="assets/HairCut1.jpg" alt="Female haircut" loading="lazy">
+      <div class="hero-overlay">
+        <p class="hero-tag">✦ Kampala's Premier Salon ✦</p>
+        <h1>Look Good.<br>Feel Amazing.</h1>
+        <p class="hero-sub">Professional hair, beauty &amp; wellness services tailored just for you.</p>
+        <div class="hero-cta">
+          <a href="#booking"><button class="btn-gold">Book Appointment</button></a>
+          <a href="#service"><button class="btn-outline-white">Our Services</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="assets/coloring.jpg" alt="Hair coloring" loading="lazy">
+      <div class="hero-overlay">
+        <p class="hero-tag">✦ Expert Colourists ✦</p>
+        <h1>Bold Colour.<br>Stunning Results.</h1>
+        <p class="hero-sub">From root touch-ups to full transformations — we've got you.</p>
+        <div class="hero-cta">
+          <a href="#booking"><button class="btn-gold">Book Now</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="assets/massage.jpg" alt="Massage" loading="lazy">
+      <div class="hero-overlay">
+        <p class="hero-tag">✦ Relax & Unwind ✦</p>
+        <h1>Stress Melts.<br>You Glow.</h1>
+        <p class="hero-sub">Indulge in our premium massage and spa treatments.</p>
+        <div class="hero-cta">
+          <a href="#booking"><button class="btn-gold">Book Now</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="assets/hairextension.webp" alt="Hair extensions" loading="lazy">
+      <div class="hero-overlay">
+        <p class="hero-tag">✦ Hair Extensions ✦</p>
+        <h1>Length. Volume.<br>Confidence.</h1>
+        <p class="hero-sub">Premium extensions installed by certified specialists.</p>
+        <div class="hero-cta">
+          <a href="#booking"><button class="btn-gold">Book Now</button></a>
+        </div>
+      </div>
+    </div>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-us">
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-icon">💆‍♀️</span>
+        <h3>Expert Stylists</h3>
+        <p>Our team is trained, certified and passionate about delivering results that wow.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">💰</span>
+        <h3>Affordable Prices</h3>
+        <p>Premium quality beauty services at prices that respect your budget.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">🌿</span>
+        <h3>Quality Products</h3>
+        <p>We use only top-grade, hair-friendly products that nourish and protect.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">⏰</span>
+        <h3>Always on Time</h3>
+        <p>We respect your schedule. Book a slot and we'll be ready when you arrive.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <div class="service-heading" id="service">
+    <h2>Our Services</h2>
+    <p class="section-sub">Everything you need to look and feel your best — all in one place.</p>
+  </div>
+
+  <section class="services">
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/haircut2.jpg" alt="Cutting and Styling" loading="lazy">
+        <h3>Cutting &amp; Styling</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 5,000</p>
+        <p>Women's, men's and children's haircuts, blowouts, rollersets and styling — all done with precision and care.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/coloring.jpg" alt="Hair Coloring" loading="lazy">
+        <h3>Hair Coloring</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 7,000</p>
+        <p>From global coloring and root touch-ups to highlights and balayage — vibrant, long-lasting colour every time.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/treatment.jpg" alt="Hair Treatment" loading="lazy">
+        <h3>Hair Treatment</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 5,000</p>
+        <p>Keratin, hair botox and deep conditioning treatments to restore, strengthen and improve hair health.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/hairextension.webp" alt="Hair Extensions" loading="lazy">
+        <h3>Hair Extensions</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 10,000</p>
+        <p>Add length, volume and fullness with premium hair extensions installed by our certified specialists.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/massage.jpg" alt="Massage" loading="lazy">
+        <h3>Massage Therapy</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 50,000</p>
+        <p>Full-body massage targeting muscles, tendons and ligaments to melt away stress and restore your energy.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/pedicure.jpg" alt="Pedicure" loading="lazy">
+        <h3>Pedicure</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 10,000</p>
+        <p>Dead skin removal, nail shaping, cuticle care and moisturising for soft, beautiful feet.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/manicure.jpg" alt="Manicure" loading="lazy">
+        <h3>Manicure</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 10,000</p>
+        <p>Professional nail shaping, cuticle treatment and polish application for hands that always look their best.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/naildesign.jpg" alt="Nail Design" loading="lazy">
+        <h3>Nail Design</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 5,000</p>
+        <p>Mirror-like finishes in rose gold, deep purple, classic silver and custom designs — your nails, your art.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/tint.jpg" alt="Hair Tinting" loading="lazy">
+        <h3>Hair Tinting</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 5,000</p>
+        <p>Subtle or bold — we add colour to increase or decrease the lightness of your hair with expert precision.</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="image-wrapper">
+        <img src="assets/deepcleansing.jpg" alt="Deep Cleansing" loading="lazy">
+        <h3>Deep Cleansing</h3>
+      </div>
+      <div class="service-detail">
+        <p class="service-price">UGX 20,000</p>
+        <p>A thorough cleanse that goes beyond surface washing to remove stubborn dirt, product buildup and impurities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING TABLE (NEW) -->
+  <section class="pricing-section">
+    <h2>Quick Price Guide</h2>
+    <p class="section-sub">Clear, honest pricing — no hidden charges.</p>
+    <div class="pricing-table">
+      <div class="price-row"><span>Cutting &amp; Styling</span><span class="price-tag">UGX 5,000</span></div>
+      <div class="price-row"><span>Hair Coloring</span><span class="price-tag">UGX 7,000</span></div>
+      <div class="price-row"><span>Hair Treatment</span><span class="price-tag">UGX 5,000</span></div>
+      <div class="price-row"><span>Hair Extensions</span><span class="price-tag">UGX 10,000</span></div>
+      <div class="price-row"><span>Nail Design</span><span class="price-tag">UGX 5,000</span></div>
+      <div class="price-row"><span>Manicure</span><span class="price-tag">UGX 10,000</span></div>
+      <div class="price-row"><span>Pedicure</span><span class="price-tag">UGX 10,000</span></div>
+      <div class="price-row"><span>Hair Tinting</span><span class="price-tag">UGX 5,000</span></div>
+      <div class="price-row"><span>Deep Cleansing</span><span class="price-tag">UGX 20,000</span></div>
+      <div class="price-row highlight-row"><span>Massage Therapy</span><span class="price-tag">UGX 50,000</span></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / FAQ -->
+  <section class="about-us" id="about">
+    <h1>About Preston Saloon</h1>
+
+    <!-- About Story (NEW) -->
+    <div class="about-story">
+      <p>Preston Saloon is a premier beauty and wellness destination located in the heart of Kampala, Uganda. We have built our reputation on delivering exceptional results, using top-quality products and the hands of passionate, skilled stylists.</p>
+      <p>Whether you're coming in for a quick trim, a full colour transformation, or a relaxing massage — every client who walks through our doors is treated like royalty. We believe beauty is not a luxury, it's a right.</p>
+      <div class="about-highlights">
+        <div class="highlight-item">✅ <span>10+ professional beauty services</span></div>
+        <div class="highlight-item">✅ <span>Certified and experienced stylists</span></div>
+        <div class="highlight-item">✅ <span>Affordable prices for all budgets</span></div>
+        <div class="highlight-item">✅ <span>Clean, welcoming environment</span></div>
+        <div class="highlight-item">✅ <span>Walk-ins welcome, bookings preferred</span></div>
+        <div class="highlight-item">✅ <span>Product deliveries available</span></div>
+      </div>
+    </div>
+
+    <!-- Opening Hours (NEW) -->
+    <div class="hours-box">
+      <h3>🕐 Opening Hours</h3>
+      <div class="hours-grid">
+        <span>Monday – Friday</span><span>8:00 AM – 8:00 PM</span>
+        <span>Saturday</span><span>7:00 AM – 9:00 PM</span>
+        <span>Sunday</span><span>9:00 AM – 6:00 PM</span>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <h1 class="faq-title">Frequently Asked Questions</h1>
+    <h2 class="heading-1">How is your customer care? &#9660;</h2>
+    <p class="paragraph-1">Our team is highly trained with excellent work ethics. Every client is handled with care, patience and the highest level of respect — because you deserve nothing less.</p>
+    <hr>
+    <h2 class="heading-2">Where are you located? &#9660;</h2>
+    <p class="paragraph-2">Preston Saloon is located in Kampala, Uganda. We are easily accessible and welcome walk-ins. You can also call or WhatsApp us for directions.</p>
+    <hr>
+    <h2 class="heading-3">How would you rate your services out of 10? &#9660;</h2>
+    <p class="paragraph-3">We let our clients do the rating — and they consistently give us 9s and 10s. Come experience us and judge for yourself. We're confident you'll leave impressed.</p>
+    <hr>
+    <h2 class="heading-4">Do you do product deliveries? &#9660;</h2>
+    <p class="paragraph-4">Yes! Once you inquire about our beauty products, we offer delivery right to your doorstep. Simply call or WhatsApp us to place your order and we'll sort the rest.</p>
+  </section>
+  <hr>
+
+  <!-- BOOKING -->
+  <section class="booking-page">
+    <div><h2>📅 Book Your Appointment</h2>
+    <p class="section-sub">Fill in your details and we'll confirm your slot via WhatsApp.</p></div>
+    <form method="POST" action="https://formsubmit.co/tashpreston2002@gmail.com" id="booking">
+      <input type="hidden" name="_subject" value="New Salon Booking Request">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <label for="name">Full Name</label>
+      <input type="text" required id="name" name="name" placeholder="Your full name">
+
+      <label for="number">Phone Number</label>
+      <input type="tel" id="number" name="number" required placeholder="+256 700 000 000">
+
+      <label for="email">Email Address (optional)</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com">
+
+      <label for="time">Preferred Date</label>
+      <input type="date" id="time" name="time">
+
+      <label for="specific-time">Time of Day</label>
+      <select name="specific-time" id="specific-time">
+        <option value="morning-am">Morning (AM)</option>
+        <option value="afternoon-pm">Afternoon (PM)</option>
+        <option value="evening">Evening</option>
+      </select>
+
+      <label for="style">Service Required</label>
+      <select name="style" id="style">
+        <option value="plaiting">Plaiting</option>
+        <option value="braiding">Braiding</option>
+        <option value="coloring">Hair Coloring</option>
+        <option value="haircut">Haircut &amp; Styling</option>
+        <option value="styling">Styling</option>
+        <option value="extensions">Hair Extensions</option>
+        <option value="massage">Massage Therapy</option>
+        <option value="pedicure">Pedicure</option>
+        <option value="manicure">Manicure</option>
+        <option value="nail-design">Nail Design</option>
+        <option value="tinting">Hair Tinting</option>
+        <option value="deep-cleansing">Deep Cleansing</option>
+        <option value="treatment">Hair Treatment</option>
+      </select>
+
+      <button type="submit">Confirm Booking ✓</button>
+      <div id="booking-success" class="booking-success" style="display:none;">
+        ✅ Booking sent! We'll confirm your appointment via WhatsApp shortly.
+      </div>
+    </form>
+  </section>
+
+  <!-- TESTIMONIALS / COMMENTS -->
+  <section class="testimonials-section">
+    <h2>What Our Clients Say</h2>
+    <p class="section-sub">Real people, real experiences at Preston Saloon.</p>
+  </section>
+
+  <section id="comments">
+    <div class="comment active">
+      <img src="assets/tashobya.jpg" alt="Tashobya">
+      <div class="comment-body">
+        <div class="stars">★★★★★</div>
+        <p>"I visited them and they are really caring and welcoming. The atmosphere is clean and the service was quick. Highly recommend!"</p>
+        <hr>
+        <p class="commenter">— Tashobya</p>
+      </div>
+    </div>
+    <div class="comment">
+      <img src="assets/prestontash.jpg" alt="Kapllay">
+      <div class="comment-body">
+        <div class="stars">★★★★★</div>
+        <p>"I will definitely come back again. The hair treatment they gave me left my hair feeling so healthy and soft. 10/10 experience."</p>
+        <hr>
+        <p class="commenter">— Kapllay</p>
+      </div>
+    </div>
+    <div class="comment">
+      <img src="assets/PRESTON.jpg" alt="Preston">
+      <div class="comment-body">
+        <div class="stars">★★★★★</div>
+        <p>"Best services ever. I love the style they gave me — exactly what I asked for. The stylists really listen to what you want."</p>
+        <hr>
+        <p class="commenter">— Preston</p>
+      </div>
+    </div>
+    <div class="comment">
+      <img src="assets/tash.jpg" alt="Tash">
+      <div class="comment-body">
+        <div class="stars">★★★★☆</div>
+        <p>"Affordable prices and such a nice environment. I got a manicure and pedicure combo and I'm obsessed with the results!"</p>
+        <hr>
+        <p class="commenter">— Tash</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER -->
+  <div class="footer">
+    <section class="contact-page" id="contact">
+      <h2>Get In Touch</h2>
+      <p class="section-sub" style="color:#ccc; text-align:center;">We're always happy to hear from you.</p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div>
+            <strong>Location</strong>
+            <p>Kampala, Uganda</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:+256759258767">+256 759 258 767</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">💬</span>
+          <div>
+            <strong>WhatsApp</strong>
+            <p><a href="https://wa.me/256759258767" target="_blank">+256 759 258 767</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🕐</span>
+          <div>
+            <strong>Hours</strong>
+            <p>Mon–Fri: 8AM–8PM<br>Sat: 7AM–9PM<br>Sun: 9AM–6PM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media (NEW) -->
+      <div class="social-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" class="social-link">📘 Facebook</a>
+          <a href="https://instagram.com" target="_blank" class="social-link">📸 Instagram</a>
+          <a href="https://tiktok.com" target="_blank" class="social-link">🎵 TikTok</a>
+          <a href="https://wa.me/256759258767" target="_blank" class="social-link">💬 WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© 2026 Preston Saloon &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; Built by <a href="https://prestontash.com" target="_blank">TashInTech</a></div>
+    </footer>
+  </div>
+
+  <script src="saloon.js" defer></script>
+</body>
+</html>
